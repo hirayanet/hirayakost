@@ -1105,21 +1105,21 @@
         });
 
         // Form submission
-        document.querySelector('.contact-form form').addEventListener('submit', function(e) {
-            e.preventDefault();
+      //  document.querySelector('.contact-form form').addEventListener('submit', function(e) {
+      //      e.preventDefault();
             
-            const name = document.getElementById('name').value;
-            const phone = document.getElementById('phone').value;
-            const message = document.getElementById('message').value;
+      //      const name = document.getElementById('name').value;
+      //      const phone = document.getElementById('phone').value;
+      //      const message = document.getElementById('message').value;
             
-            if (name && phone && message) {
-                const whatsappMessage = `Halo, saya ${name}. ${message}`;
-                const whatsappURL = `https://wa.me/6287722667913?text=${encodeURIComponent(whatsappMessage)}`;
-                window.open(whatsappURL, '_blank');
-            } else {
-                alert('Mohon lengkapi semua field yang diperlukan.');
-            }
-        });
+     //       if (name && phone && message) {
+      //          const whatsappMessage = `Halo, saya ${name}. ${message}`;
+      //          const whatsappURL = `https://wa.me/6287722667913?text=${encodeURIComponent(whatsappMessage)}`;
+      //          window.open(whatsappURL, '_blank');
+       //     } else {
+       //         alert('Mohon lengkapi semua field yang diperlukan.');
+       //     }
+      //  });
 
         // Initialize visible images on page load
         updateVisibleImages();
